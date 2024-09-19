@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("L01-utasítasok")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34d1d5a0ba87984426b5468accd321d072126dfa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cc89e3d28b6f128e0d1c1025aca6b6ea47e015c")]
 [assembly: System.Reflection.AssemblyProductAttribute("L01-utasítasok")]
 [assembly: System.Reflection.AssemblyTitleAttribute("L01-utasítasok")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
