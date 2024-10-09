@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L02-ciklus", "L02-ciklus\L0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L03-tombok", "L03-tombok\L03-tombok.csproj", "{C5A37D04-0CB3-4CA4-96CD-D4F07F801817}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L04-karakterlancok", "L04-karakterlancok\L04-karakterlancok.csproj", "{1026FE80-62EB-4855-A4E0-E83171FB139C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L04-karakterlancok", "L04-karakterlancok\L04-karakterlancok.csproj", "{1026FE80-62EB-4855-A4E0-E83171FB139C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L05-fajlkezeles", "L05-fajlkezeles\L05-fajlkezeles.csproj", "{C6C03B60-5A0E-4B0D-BA91-AAEC2D59F777}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1026FE80-62EB-4855-A4E0-E83171FB139C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1026FE80-62EB-4855-A4E0-E83171FB139C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1026FE80-62EB-4855-A4E0-E83171FB139C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C03B60-5A0E-4B0D-BA91-AAEC2D59F777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C03B60-5A0E-4B0D-BA91-AAEC2D59F777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C03B60-5A0E-4B0D-BA91-AAEC2D59F777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C03B60-5A0E-4B0D-BA91-AAEC2D59F777}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

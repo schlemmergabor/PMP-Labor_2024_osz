@@ -1,0 +1,7 @@
+Red#Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Blue#Suspendisse eros erat, ornare quis magna vitae, rutrum interdum turpis.
+Green#Morbi pellentesque ut sem sed dapibus.
+Magenta#Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer egestas ipsum vitae dolor vehicula porta.
+Yellow#In hac habitasse platea dictumst.
+Cyan#Praesent non rutrum orci.
+White#Curabitur ornare, justo tristique vulputate malesuada, urna ex dignissim ante, at pellentesque tellus nibh sit amet lorem.
