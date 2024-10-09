@@ -58,9 +58,9 @@
             // de le kell vonni belőle 1-et, mert 0-tól indexelünk
             for (int i = 0; i < kartyak.Length - 1; i++)
             {
-                Random rnd = new Random();
+                Random rndx = new Random();
                 // j-be véletlenszám
-                int j = rnd.Next(i, kartyak.Length);
+                int j = rndx.Next(i, kartyak.Length);
 
                 // csere
                 string temp = kartyak[j];
