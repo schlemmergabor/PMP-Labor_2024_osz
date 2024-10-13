@@ -7,7 +7,7 @@
             // 1. feladat
 
             // beolvastam a fájlt soronként
-            string[] beMufajok = File.ReadAllLines("genre.txt");
+            string[] beMufajok = File.ReadAllLines(@"..\..\..\genre.txt");
 
             // beolvasott értékek feldolgozása
 
@@ -26,7 +26,7 @@
             // 2. feladat
 
             // beolvasom a fájl minden sorát
-            string[] beAdat = File.ReadAllLines("games_dataset.csv");
+            string[] beAdat = File.ReadAllLines(@"..\..\..\games_dataset.csv");
 
             // adatfeldolgozás
 
@@ -51,11 +51,11 @@
 
                 jatekMufaja.Add(mufajok[index]);
 
-                jatekKiadoja.Add(jatekDarab[3]);
+                jatekKiadoja.Add(jatekDarab[2]);
 
                 // DateTime.Parse, mint a double.Parse...
-                jatekRelDate.Add(DateTime.Parse(jatekDarab[4]));
-                jatekOrigDate.Add(DateTime.Parse(jatekDarab[5]));
+                jatekRelDate.Add(DateTime.Parse(jatekDarab[3]));
+                jatekOrigDate.Add(DateTime.Parse(jatekDarab[4]));
             }
 
             // 3. feladat
