@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L05-fajlkezeles", "L05-fajl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MintaZH01", "MintaZH01\MintaZH01.csproj", "{41D87ECA-6DDF-49B5-80F4-AA0BD8B05C48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L06-OOPalapok", "L06-OOPalapok\L06-OOPalapok.csproj", "{FE9E86DD-55F9-4888-AF45-916561408212}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L06-OOPalapok", "L06-OOPalapok\L06-OOPalapok.csproj", "{FE9E86DD-55F9-4888-AF45-916561408212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L07-tulajdonsagok", "L07-tulajdonsagok\L07-tulajdonsagok.csproj", "{D5F0B558-3BE3-4274-924F-51B06B0A5FA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{FE9E86DD-55F9-4888-AF45-916561408212}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE9E86DD-55F9-4888-AF45-916561408212}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE9E86DD-55F9-4888-AF45-916561408212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F0B558-3BE3-4274-924F-51B06B0A5FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F0B558-3BE3-4274-924F-51B06B0A5FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F0B558-3BE3-4274-924F-51B06B0A5FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F0B558-3BE3-4274-924F-51B06B0A5FA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
