@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MintaZH01", "MintaZH01\Mint
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L06-OOPalapok", "L06-OOPalapok\L06-OOPalapok.csproj", "{FE9E86DD-55F9-4888-AF45-916561408212}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L07-tulajdonsagok", "L07-tulajdonsagok\L07-tulajdonsagok.csproj", "{D5F0B558-3BE3-4274-924F-51B06B0A5FA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L07-tulajdonsagok", "L07-tulajdonsagok\L07-tulajdonsagok.csproj", "{D5F0B558-3BE3-4274-924F-51B06B0A5FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L08-feladatmegoldas", "L08-feladatmegoldas\L08-feladatmegoldas.csproj", "{FB9446C4-BAA5-45C5-8DA9-9DA796A4BAE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{D5F0B558-3BE3-4274-924F-51B06B0A5FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5F0B558-3BE3-4274-924F-51B06B0A5FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5F0B558-3BE3-4274-924F-51B06B0A5FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9446C4-BAA5-45C5-8DA9-9DA796A4BAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9446C4-BAA5-45C5-8DA9-9DA796A4BAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9446C4-BAA5-45C5-8DA9-9DA796A4BAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9446C4-BAA5-45C5-8DA9-9DA796A4BAE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
