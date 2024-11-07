@@ -23,6 +23,11 @@ namespace L08_feladatmegoldas
             this.pos = pos;
         }
 
+        // proprety
+        // feladat nem írta elő, de kelleni fog
+        // lekérdezni, hogy a játékos milyen poszton játszik
+        public Position Pos { get => pos;  }
+
         // ToString() felüldefiniálása
         public override string? ToString()
         {
