@@ -71,7 +71,7 @@
             ftc.Include(p2);
             ;
 
-            // Első Feladat 
+            Első Feladat 
             //ElsoFeladat();
             MasodikFeladat();
         }

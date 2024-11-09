@@ -36,7 +36,7 @@ namespace L08_feladatmegoldas
         // Mozog
         public void Move(Field f)
         {
-            // ha még él a Buffalo
+            // ha még él a bölény
             if (this.aktiv)
             {
                 // hova léphet ->  a három irány

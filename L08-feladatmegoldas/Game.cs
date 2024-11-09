@@ -17,7 +17,7 @@ namespace L08_feladatmegoldas
         // ctor
         public Game(int jatekterMerete, int bolenyekSzama)
         {
-            // Field létrehozása
+            // Field létrehozása -> játéktér
             f = new Field(jatekterMerete);
 
             // bölények tömbjének létrehozása
@@ -30,25 +30,36 @@ namespace L08_feladatmegoldas
             }
         }
 
-        // Property - véget ért a játék
+        // Property - véget ért-e már a játék?
         public bool IsOver
         {
             get
             {
-                // a bölény célbe ért
+                // ha egy bölény célbe ért
                 foreach (Buffalo item in bfs)
                 {
+                    // ha megtaláltuk az első célba ért bölényt
+                    // akkor máris return true -> nem kell a többit végig nézni
+                    // ekkor a foreach ciklusból azonnal "visszalép"
                     if (item.X == f.TargetX && item.Y == f.TargetY) return true;
                 }
 
+                // vége a játéknak a másik esetben is, azaz,
+                // ha a bölények mind meghaltak
 
-                // a bölények mind meghaltak
+                // kezdetben azt mondjuk nincs élő bölény
                 bool vanElo = false;
+
+                // végig nézzük az összes bölényt
                 foreach (Buffalo item in bfs)
                 {
+                    // ha találtunk élőt -> akkor van legalább egy élő
                     if (item.Aktiv) vanElo = true;
                 }
 
+                // vanélő negálása
+                // ha volt élő, akkor vanElo = true, tehát false-t ad vissza
+                // ha nem volt élő, akkor vanElo = false, tehát true-t ad vissza
                 return !vanElo;
             }
         }
@@ -62,7 +73,7 @@ namespace L08_feladatmegoldas
             // játéktér megjelenítése
             f.Show();
 
-            // bölények megjelenítése
+            // bölények tömbjének bejárása
             foreach (Buffalo item in bfs)
             {
                 // megjelenítés
@@ -89,7 +100,7 @@ namespace L08_feladatmegoldas
             // lövés...
             foreach (Buffalo item in bfs)
             {
-                // ha az X,Y-on van az item
+                // ha az X,Y-on van az item (bölény)
                 if (item.X == X && item.Y == Y)
                 {
                     // deaktiválás -> eltaláltam
@@ -101,7 +112,7 @@ namespace L08_feladatmegoldas
         public void Run()
         {
             // amíg nincs vége a játéknak
-            while (!IsOver)
+            while (!this.IsOver)
             {
                 // kirajzol
                 VisualizeElements();
@@ -109,8 +120,21 @@ namespace L08_feladatmegoldas
                 Shoot();
             }
 
-            // végéhez még egyszer kirajzolom
-            VisualizeElements();
+            // eldöntjük, hogy ki nyert
+
+            // van-e élő bölény még?
+            bool vanElo = false;
+            foreach (Buffalo item in bfs)
+            {
+                // ha találtunk élőt -> akkor van élő
+                if (item.Aktiv) vanElo = true;
+            }
+
+            // ha van még élő -> akkor az célba ért
+            if (vanElo) Console.WriteLine("A bölények nyertek!");
+            else Console.WriteLine("A játékos nyert!");
+           
+
         }
     }
 }
