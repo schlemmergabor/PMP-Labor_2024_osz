@@ -71,8 +71,10 @@
             ftc.Include(p2);
             ;
 
-            Első Feladat 
-            //ElsoFeladat();
+            // Első Feladat (futsal csapatos)
+            ElsoFeladat();
+
+            // Második Feladat (bölényes)
             MasodikFeladat();
         }
     }
